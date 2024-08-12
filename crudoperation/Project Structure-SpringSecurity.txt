@@ -1,0 +1,28 @@
+src/main/java/com/example/crudoperation
+│
+├── config
+│   └── SecurityConfig.java         // Configuration for Spring Security
+│
+├── controller
+│   ├── MyController.java           // Existing controller with CRUD operations
+│   └── UserController.java         // Controller for user registration
+│
+├── exception
+│   ├── GlobalExceptionHandler.java // Handles global exceptions
+│   ├── InvalidModelException.java  // Custom exception for invalid models
+│   └── ModelNotFoundException.java // Custom exception for not found models
+│
+├── model
+│   ├── MyModel.java                // Entity representing your main data model
+│   ├── MyUser.java                 // Entity representing user data
+│   └── UserDetailsImpl.java        // Implementation of UserDetails for Spring Security
+│
+├── repository
+│   ├── MyRepository.java           // Repository for CRUD operations on MyModel
+│   └── MyUserRepository.java       // Repository for user data
+│
+├── service
+│   ├── MyService.java              // Service class for CRUD operations on MyModel
+│   └── MyUserService.java          // Service class for user-related operations
+│
+└── CrudoperationApplication.java   // Main application class
